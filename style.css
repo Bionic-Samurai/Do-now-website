@@ -1,16 +1,19 @@
 body {
+    margin: 0;
     background-color: #FAF4D3;
     color: #0C1618;
     font-family: "Share Tech";
 }
 
 h1{
+    margin: 0;
+    padding: 6.7%;
     background-color: #004643;
     color: #FAF4D3;
     text-align: center;
 }
 
-div{
+.stuff {
     border-style: dotted;
     border-color: #004643;
     border-width: medium;
@@ -26,4 +29,26 @@ span{
     font-style: normal;
   }
   
+  .red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+  }
 
+  .green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    display: inline-block;
+  }
